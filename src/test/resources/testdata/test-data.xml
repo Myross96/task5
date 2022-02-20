@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+	<categories id = '1' category_name = 'Beverages' description = 'Soft drinks, coffees, teas, beers, and ales' />
+	<categories id = '2' category_name = 'Condiments' description = 'Sweet and savory sauces, relishes, spreads, and seasonings' />
+	<categories id = '3' category_name = 'Confections' description = 'Desserts, candies, and sweet breads' />
+	<categories id = '4' category_name = 'Dairy Products' description = 'Cheeses' />
+	<categories id = '5' category_name = 'Grains/Cereals' description = 'Breads, crackers, pasta, and cereal' />
+	
+	<suppliers id = '1' supplier_name = 'Exotic Liquid' city = 'London' country = 'UK' />
+	<suppliers id = '2' supplier_name = 'New Orleans Cajun Delights' city = 'New Orleans' country = 'USA' />
+	<suppliers id = '3' supplier_name = 'Grandma Kelly’s Homestead' city = 'Ann Arbor' country = 'USA' />
+	<suppliers id = '4' supplier_name = 'Tokyo Traders' city = 'Tokyo' country = 'Japan' />
+	<suppliers id = '5' supplier_name = 'Cooperativa de Quesos ‘Las Cabras’' city = 'Oviedo' country = 'Spain' />
+	
+	<products id = '1' product_name = 'Chais' supplier_id = '1' category_id = '1' price = '18.00' />
+	<products id = '2' product_name = 'Chang' supplier_id = '1' category_id = '1' price = '19.00' />
+	<products id = '3' product_name = 'Aniseed Syrup' supplier_id = '1' category_id = '2' price = '10.00' />
+	<products id = '4' product_name = 'Chef Anton’s Cajun Seasoning' supplier_id = '2' category_id = '2' price = '22.00' />
+	<products id = '5' product_name = 'Chef Anton’s Gumbo Mix' supplier_id = '2' category_id = '2' price = '21.35' />
+	
+	<supplier_category supplier_id = '1' category_id = '1' />
+	<supplier_category supplier_id = '1' category_id = '2' />
+	<supplier_category supplier_id = '2' category_id = '2' />
+	<supplier_category supplier_id = '3' category_id = '3' />
+	<supplier_category supplier_id = '4' category_id = '4' />
+	<supplier_category supplier_id = '5' category_id = '5' />
+</dataset>
